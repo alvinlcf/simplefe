@@ -1,0 +1,23 @@
+{
+    "/reports/*": {
+        "target": "http://172.28.42.154:8000",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/sample/api/settings": "/api/pathrewriteurlhere/settings",
+            "^/api": ""
+        }
+    },
+    "/logout": {
+        "target": "http://172.28.42.154:8000",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/sample/api/settings": "/api/pathrewriteurlhere/settings",
+            "^/api": ""
+        }
+    }
+
+}
