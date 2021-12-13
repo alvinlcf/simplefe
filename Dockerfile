@@ -17,3 +17,4 @@ COPY . ${WORK_DIR}
 EXPOSE 4201
 
 CMD npm start
+
